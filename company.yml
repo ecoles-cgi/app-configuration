@@ -1,6 +1,7 @@
 ---
 
-profiles:
-    cloud
+spring:
+    profiles:
+        cloud
 message:
     Hellow World!
