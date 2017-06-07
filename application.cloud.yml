@@ -6,5 +6,5 @@ spring:
 
 eureka:
   instance:
-    hostname: service-registry-ecoles
+    hostname: ${ vcap.application.uris[0] }
     nonSecurePort: 80
