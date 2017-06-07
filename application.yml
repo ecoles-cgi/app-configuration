@@ -1,9 +1,16 @@
 ---
-
 info:
   description: Training configuration repo
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://serviceuser:servicepassword@service-registry-ecoles.cfapps.io/eureka
+
+---
+spring:
+    profiles:
+        cloud
+eureka:
+  instance:
+    hostname: ${ vcap.application.uris[0] }
+    nonSecurePort: 80
