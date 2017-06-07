@@ -6,4 +6,4 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://serviceuser:servicepassword@service-registry-ecoles-0_0_1-rc_1.cfapps.io/eureka
+      defaultZone: http://serviceuser:servicepassword@service-registry-ecoles.cfapps.io/eureka

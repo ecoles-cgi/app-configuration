@@ -1,0 +1,10 @@
+---
+
+spring:
+    profiles:
+        cloud
+
+eureka:
+  instance:
+    hostname: service-registry-ecoles
+    nonSecurePort: 80
