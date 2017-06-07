@@ -7,3 +7,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://serviceuser:servicepassword@service-registry-ecoles.cfapps.io/eureka
+  instance:
+    hostname: service-registry-ecoles
+    nonSecurePort: 80
