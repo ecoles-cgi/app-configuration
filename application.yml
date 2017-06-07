@@ -2,3 +2,8 @@
 
 info:
   description: Training configuration repo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://serviceuser:servicepassword@http://service-registry-ecoles-0_0_1-rc_1.cfapps.io/eureka
